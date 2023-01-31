@@ -1,8 +1,13 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Header from "./components/Header";
+
 function App() {
   return (
-    <header className="App-header">
-      COMMIT INICIAL
-    </header>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={ <Header /> } />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
