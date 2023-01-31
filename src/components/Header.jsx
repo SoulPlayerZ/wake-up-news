@@ -3,7 +3,7 @@
 function Header () {
    return(
      <header>
-        Header Component
+        Header Component TESTE MAIN PAGE
      </header> 
    )
 }
