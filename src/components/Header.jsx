@@ -1,18 +1,18 @@
 import { FaTwitch, FaInstagram, FaGithub } from 'react-icons/fa';
 import { AiFillLinkedin } from 'react-icons/ai';
-import { useEffect } from 'react';
-import getAllNews from '../services/getNewsFromApi';
+// import { useEffect } from 'react';
+// import getAllNews from '../services/getNewsFromApi';
 
 function Header () {
 
-    const testGetNews = async () => {
-        const allNews = await getAllNews();
-        console.log(allNews);
-    }
+    // const testGetNews = async () => {
+    //     const allNews = await getAllNews();
+    //     console.log(allNews);
+    // }
 
-    useEffect(() => {
-        testGetNews();
-    })
+    // useEffect(() => {
+    //     testGetNews();
+    // })
 
   return(
     <header>
