@@ -1,27 +1,29 @@
 import React, { useContext, useEffect } from "react";
 import Header from "../components/Header";
+import Loading from "../components/Loading";
 import NewsContext from "../context/NewsContext";
 import getAllNews from "../services/getNewsFromApi";
 
 
 function MainNewsPage () {
-  const { allNews, setAllNews } = useContext(NewsContext);
-  const { loading, setLoading } = useContext(NewsContext);
-
-     const testGetNews = async () => {
-        setLoading(true);
-        const news = await getAllNews();
-        setAllNews(news);
-        setLoading(false);
-        console.log(allNews);
+  const { setAllNews, loading, setLoading } = useContext(NewsContext);
+    const getNews = async () => {
+      setLoading(true);
+      const news = await getAllNews();
+      setAllNews(news);
+      setLoading(false);
     }
 
     useEffect(() => {
-        testGetNews();
-    })
+        getNews();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    },[])
 
   return(
-    <Header/>
+    <section>
+      { loading ? <Loading /> : <Header /> }
+    </ section>
+ 
   )
 }
  

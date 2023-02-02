@@ -3,7 +3,7 @@ import NewsContext from "./NewsContext";
 
 function NewsProvider ({ children }) {
   const [allNews, setAllNews] = useState([]);
-  const [loading, setLoading] = useState([]);
+  const [loading, setLoading] = useState(false);
  
 const contextValue = {
   allNews,
