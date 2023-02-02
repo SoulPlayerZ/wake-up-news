@@ -1,10 +1,11 @@
 import Header from "./Header";
+import Card from "./Card";
 
 function CardList () {
   return(
     <section>
         <Header />
-        <h2>CARD LIST HERE</h2>
+        <Card />
     </section>
   )
 }
