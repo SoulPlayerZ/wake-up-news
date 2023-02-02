@@ -1,5 +1,5 @@
 import React, { useContext, useEffect } from "react";
-import Header from "../components/Header";
+import CardList from "../components/CardList";
 import Loading from "../components/Loading";
 import NewsContext from "../context/NewsContext";
 import getAllNews from "../services/getNewsFromApi";
@@ -21,7 +21,7 @@ function MainNewsPage () {
 
   return(
     <section>
-      { loading ? <Loading /> : <Header /> }
+      { loading ? <Loading /> : <CardList /> }
     </ section>
  
   )
