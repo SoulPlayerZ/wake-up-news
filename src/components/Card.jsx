@@ -1,11 +1,12 @@
 function Card({ news }) {
 
   return(
-    <section>aa
-        {/* <h2>{news.titulo}</h2>
-        <p>{news.data_publicacao}</p>
-        <p>{news.introducao}</p> */}
-    </section>
+    <a href={ news.url } target='_blank' rel="noreferrer noopener">
+        <h2>{ news.headline }</h2>
+        <p>{ news.inserted }</p>
+        <p>{ news.kicker }</p>
+        <img src={ `https://www.vagalume.com.br/${news.pic_src}`} alt='News Thumbnail' />
+    </a>
   )
 }
 
