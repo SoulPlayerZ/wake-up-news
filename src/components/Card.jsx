@@ -1,7 +1,11 @@
-function Card() {
+function Card({ news }) {
+  console.log(news);
+
   return(
-    <section>
-        <h2>One Card Here</h2>
+    <section>aa
+        {/* <h2>{news.titulo}</h2>
+        <p>{news.data_publicacao}</p>
+        <p>{news.introducao}</p> */}
     </section>
   )
 }

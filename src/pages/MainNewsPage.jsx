@@ -1,5 +1,6 @@
 import React, { useContext, useEffect } from "react";
 import CardList from "../components/CardList";
+import Header from "../components/Header";
 import Loading from "../components/Loading";
 import NewsContext from "../context/NewsContext";
 import getAllNews from "../services/getNewsFromApi";
@@ -21,6 +22,7 @@ function MainNewsPage () {
 
   return(
     <section>
+      <Header />
       { loading ? <Loading /> : <CardList /> }
     </ section>
  

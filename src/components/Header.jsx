@@ -1,13 +1,8 @@
 import { FaTwitch, FaInstagram, FaGithub } from 'react-icons/fa';
 import { AiFillLinkedin } from 'react-icons/ai';
-import { useContext } from 'react';
-import NewsContext from '../context/NewsContext';
 
 function Header () {
-  const { allNews } = useContext(NewsContext);
-
-  console.log(allNews);
-
+ 
   return(
     <header>
       <section>
