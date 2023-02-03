@@ -1,5 +1,4 @@
 function Card({ news }) {
-  console.log(news);
 
   return(
     <section>aa

@@ -1,7 +1,7 @@
 const getAllNews = async () => {
-  const news = await fetch('http://servicodados.ibge.gov.br/api/v3/noticias/');
-  const { items } = await news.json();
-  return items;
+  const fetchedNews = await fetch('https://www.vagalume.com.br/news/index.js');
+  const { news } = await fetchedNews.json();
+  return news;
 }
 
 export default getAllNews;
