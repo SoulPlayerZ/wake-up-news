@@ -1,5 +1,4 @@
 .card {
-  position: relative;
   width: 30em;
   margin: 0 20px 20px 20px;
   overflow: hidden;
@@ -9,7 +8,8 @@
 }
 
 .card-content {
-    text-decoration: none;
+  text-decoration: none;
+  color: rgb(231, 231, 231);
 }
 
 .card-img {
@@ -19,7 +19,16 @@
 }
 
 .card-title {
+    text-shadow: 1px 5px 20px rgb(31, 31, 31), 0 0 1em rgb(31, 31, 31), 0 0 0.2em blue;
+}
+
+.card-title, .card-kicker, .card-inserted {
   padding: 5px;
   margin: 0;
+}
 
+.card-kicker {
+  text-decoration: none;
+  font-size: 13px;
+  color: rgb(231, 231, 231);
 }
