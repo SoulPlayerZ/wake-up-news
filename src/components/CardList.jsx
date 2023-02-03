@@ -1,11 +1,21 @@
-import Header from "./Header";
 import Card from "./Card";
+import { useContext, useEffect } from "react";
+import NewsContext from "../context/NewsContext";
 
 function CardList () {
+  const { allNews } = useContext(NewsContext);
+
+
+  useEffect(() => {
+     console.log(allNews)
+    
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
+
+
   return(
     <section>
-        <Header />
-        <Card />
+        {allNews.map((news) => <Card news={news} key={ news.id }/>)}
     </section>
   )
 }
