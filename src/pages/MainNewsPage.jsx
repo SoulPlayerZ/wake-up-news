@@ -4,6 +4,7 @@ import Header from "../components/Header";
 import Loading from "../components/Loading";
 import NewsContext from "../context/NewsContext";
 import getAllNews from "../services/getNewsFromApi";
+import "../css/mainPage.css";
 
 
 function MainNewsPage () {
@@ -21,7 +22,7 @@ function MainNewsPage () {
     },[])
 
   return(
-    <section>
+    <section className="main-page">
       <Header />
       { loading ? <Loading /> : <CardList /> }
     </ section>
