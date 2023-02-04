@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+  }
+
 @font-face {
     font-family: dancingScript;
     src: url("../font/DancingScript-VariableFont_wght.ttf");

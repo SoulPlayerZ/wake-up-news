@@ -16,6 +16,11 @@ header {
   margin-left: 8%;
 }
 
+.logo-link {
+  text-decoration: none;
+  color: rgb(31, 31, 31);
+}
+
 nav {
   margin-right: 8%;
   padding: 10px;
@@ -26,3 +31,16 @@ nav {
   margin: 0 5px;
   color: rgb(31, 31, 31);
 }
+
+@media screen and (max-width: 527px) {
+  .logo {
+    font-size: 20px;
+  }
+  
+  nav {
+    margin-right: 5%;
+    padding: 8px;
+    font-size: 25px;
+  }
+}
+

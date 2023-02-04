@@ -7,7 +7,7 @@ function Header () {
   return(
     <header>
       <section className="logo">
-        <h2>Wake Up News</h2>
+        <a href="#home" className='logo-link'> <h2>Wake Up News</h2></a>
       </section>
 
       <nav>
