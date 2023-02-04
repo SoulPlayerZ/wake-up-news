@@ -1,3 +1,8 @@
+@font-face {
+    font-family: dancingScript;
+    src: url("../font/DancingScript-VariableFont_wght.ttf");
+ }
+
 .main-page {
   background-color: rgb(17, 14, 14);
 }

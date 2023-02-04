@@ -11,12 +11,13 @@ header {
 }
 
 .logo {
-  margin-left: 30px;
-  padding: 10px;
+  font-size: 30px;
+  font-family: dancingScript;
+  margin-left: 8%;
 }
 
 nav {
-  margin-right: 30px;
+  margin-right: 8%;
   padding: 10px;
   font-size: 30px;
 }
