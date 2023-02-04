@@ -16,6 +16,11 @@ header {
   margin-left: 8%;
 }
 
+.logo-link {
+  text-decoration: none;
+  color: rgb(31, 31, 31);
+}
+
 nav {
   margin-right: 8%;
   padding: 10px;

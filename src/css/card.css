@@ -40,3 +40,14 @@
   font-size: 13px;
   color: rgb(231, 231, 231);
 }
+
+@media screen and (max-width: 527px) {
+  .card:hover
+  {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    transition: 1s;
+  }
+}
+

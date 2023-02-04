@@ -22,7 +22,7 @@ function MainNewsPage () {
     },[])
 
   return(
-    <section className="main-page">
+    <section className="main-page" id="main-page">
       <Header />
       { loading ? <Loading /> : <CardList /> }
     </ section>
