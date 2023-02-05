@@ -1,0 +1,22 @@
+.loading {
+  animation: is-rotating 1s infinite;
+  background-color: rgb(31, 31, 31);;
+  border: 6px solid rgb(253, 216, 216);
+  border-radius: 50%;
+  border-top-color: rgb(189, 50, 50);
+  height: 5em;
+  width: 5em;
+}
+
+@keyframes is-rotating {
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+.loading-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10em;
+    background-color: rgb(31, 31, 31);
+}

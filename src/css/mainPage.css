@@ -1,12 +1,10 @@
 html {
     scroll-behavior: smooth;
+    background-color: rgb(31, 31, 31);
+    
 }
 
 @font-face {
     font-family: dancingScript;
     src: url("../font/DancingScript-VariableFont_wght.ttf");
  }
-
-.main-page {
-  background-color: rgb(17, 14, 14);
-}
