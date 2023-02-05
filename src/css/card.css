@@ -3,9 +3,9 @@
   margin: 2em 2em 2em 2em;
   overflow: hidden;
   border-radius: 3px;
-  border: 1px solid rgb(31, 31, 31);
+  border: 1px solid rgb(189, 50, 50);
   background-color: rgb(117, 117, 117);
-  box-shadow: rgb(189, 50, 50) 3px 4px 15px 2px;
+  transition: transform 0.5s
 }
 
 .card:hover
@@ -13,6 +13,7 @@
   -webkit-transform: scale(1.3);
   -ms-transform: scale(1.3);
   transform: scale(1.3);
+  box-shadow: rgb(189, 50, 50) 3px 4px 15px 2px;
   transition: 1s;
 }
 
