@@ -5,7 +5,7 @@
   border-radius: 3px;
   border: 1px solid rgb(31, 31, 31);
   background-color: rgb(117, 117, 117);
-  box-shadow: rgb(199, 73, 73) 3px 4px 15px 2px;
+  box-shadow: rgb(189, 50, 50) 3px 4px 15px 2px;
 }
 
 .card:hover
@@ -27,7 +27,7 @@
 }
 
 .card-title {
-    text-shadow: 1px 5px 20px rgb(31, 31, 31), 0 0 1em rgb(31, 31, 31), 0 0 0.2em blue;
+    text-shadow: 1px 5px 20px rgb(31, 31, 31), 0 0 1em rgb(31, 31, 31), 0 0 0.2em rgb(189, 50, 50);
 }
 
 .card-title, .card-kicker, .card-inserted {

@@ -2,7 +2,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(199, 73, 73);
+  background-image: linear-gradient(to bottom right,rgb(189, 50, 50), rgb(250, 157, 157));
   color: rgb(31, 31, 31);
   position: sticky;
   top: 0;

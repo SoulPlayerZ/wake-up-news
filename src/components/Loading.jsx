@@ -1,9 +1,12 @@
+import "../css/loading.css";
+
 function Loading () {
 
-
   return(
-    <h3>Loading...</h3>
-   )
+    <div className="loading-container">
+      <div className="loading"></div>
+    </div>
+  )
 }
 
 export default Loading;

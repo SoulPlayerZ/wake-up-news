@@ -13,8 +13,12 @@ function MainNewsPage () {
       setLoading(true);
       const news = await getAllNews();
       setAllNews(news);
-      setLoading(false);
+      setTimeout(() => {
+        setLoading(false);
+      }, 1200)
     }
+
+    
 
     useEffect(() => {
         getNews();
